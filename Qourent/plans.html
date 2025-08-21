@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quorent VII - AI-Powered Crypto Trading Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container-fluid navbar-container">
+        <a class="navbar-brand" href="index.html" style="margin-left: 5px;">
+            <div class="logo-box">Q</div>
+            <span class="brand-text">Quorent VII</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Centered navigation links -->
+            <ul class="navbar-nav nav-center mx-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="approach.html">Our Approach</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="plans.html">Plans</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="compliance.html">Compliance</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            
+            <div class="d-flex nav-buttons ms-auto" style="margin-right: 5px;">
+                <a href="login.html" class="btn btn-login me-2">Login</a>
+                <a href="register.html" class="btn btn-signup">Create Account</a>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- Hero Section -->
+    <section style="background-color: black;" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="mt-5 col-12 col-lg-10 text-center">
+                    <h2 class="wealth-heading">
+                        <span style="color: #f0ecb3;">Tailored Plans for </span>
+                        <span style="color: #ffd570;">Every   <br> Investor</span>
+                    </h2>
+                    <p class="wealth-text">
+                        Whether you're starting small or ready to scale big, we have a plan that aligns with your ambitions and investment goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="pricing" id="pricing">
+        <div class="container">            
+            <div class="pricing-grid">
+                <div class="row">
+                    <!-- Card 1 - Launch -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-card h-100">
+                            <div class="card-icon-top text-center">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="pricing-header text-center">
+                                <h3>Launch</h3>
+                                <p>investment from</p>
+                            </div>
+                            <div class="price text-center">$1,000 - $4,999</div>
+                            <div class="text-center my-3">
+                                <div class="roi-box d-inline-block">
+                                    <div class="roi-amount">4% daily</div>
+                                    <div class="roi-period">for 7 days</div>
+                                    <div class="roi-total">28% ROI total</div>
+                                </div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Basic investment strategy</li>
+                                <li><i class="fas fa-check"></i> Market analysis reports</li>
+                                <li><i class="fas fa-check"></i> Email support</li>
+                                <li><i class="fas fa-check"></i> Weekly portfolio review</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 - Growth -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-card h-100 popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <div class="card-icon-top text-center">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="pricing-header text-center">
+                                <h3>Growth</h3>
+                                <p>investment from</p>
+                            </div>
+                            <div class="price text-center">$5,000 - $19,999</div>
+                            <div class="text-center my-3">
+                                <div class="roi-box d-inline-block">
+                                    <div class="roi-amount">5% daily</div>
+                                    <div class="roi-period">for 14 days</div>
+                                    <div class="roi-total">70% ROI total</div>
+                                </div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> All Launch features</li>
+                                <li><i class="fas fa-check"></i> Advanced algorithms</li>
+                                <li><i class="fas fa-check"></i> Priority support</li>
+                                <li><i class="fas fa-check"></i> Daily portfolio updates</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 - Premium -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-card h-100">
+                            <div class="card-icon-top text-center">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div class="pricing-header text-center">
+                                <h3>Premium</h3>
+                                <p>investment from</p>
+                            </div>
+                            <div class="price text-center">$20,000 - $49,999</div>
+                            <div class="text-center my-3">
+                                <div class="roi-box d-inline-block">
+                                    <div class="roi-amount">6% daily</div>
+                                    <div class="roi-period">for 21 days</div>
+                                    <div class="roi-total">126% ROI total</div>
+                                </div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> All Growth features</li>
+                                <li><i class="fas fa-check"></i> Dedicated account manager</li>
+                                <li><i class="fas fa-check"></i> Real-time alerts</li>
+                                <li><i class="fas fa-check"></i> Exclusive opportunities</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 - Elite -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-card h-100">
+                            <div class="card-icon-top text-center">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div class="pricing-header text-center">
+                                <h3>Elite</h3>
+                                <p>investment from</p>
+                            </div>
+                            <div class="price text-center">$50,000 - $1,000,000</div>
+                            <div class="text-center my-3">
+                                <div class="roi-box d-inline-block">
+                                    <div class="roi-amount">7% daily</div>
+                                    <div class="roi-period">for 28 days</div>
+                                    <div class="roi-total">196% ROI total</div>
+                                </div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> All Premium features</li>
+                                <li><i class="fas fa-check"></i> 24/7 personal support</li>
+                                <li><i class="fas fa-check"></i> Custom investment strategies</li>
+                                <li><i class="fas fa-check"></i> Private deal flow</li>
+                            </ul>
+                            <a href="#" class="cta-button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100 p-4">
+            <h2 style="color: #f0ecb3;" class="card-title mb-3">Custom Enterprise Solutions</h2>
+            <p style="color: #ffd76a;" class="card-text">
+                For institutional investors or unique requirements above $10M, we create bespoke investment strategies tailored to your specific needs.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Card 2 -->
+    <div class="col-md-6 mb-4">
+         <div class="card h-100 p-4">
+                    <h2 style="color: #f0ecb3;" class="card-title mb-3">Why Choose Our Plans?</h2>
+                    <ul class="list-unstyled mb-4">
+                        <li style="color: #f0ecb3;" class="mb-2"><i  class="fas fa-check-circle text-success me-2"></i>Transparent fee structure</li>
+                        <li style="color: #f0ecb3;" class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Instant withdrawal processing</li>
+                        <li style="color: #f0ecb3;" class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>24/7 dedicated support</li>
+                        <li style="color: #f0ecb3;" class="mb-0"><i class="fas fa-check-circle text-success me-2"></i>Risk management protocols</li>
+                    </ul>
+                     <div class="btn-container">
+                        <a href="#" class="compact-primary-btn">Learn More</a>
+                    </div>
+                </div>
+    </div>
+</div>
+            </div>
+
+                        <div class="mt-5 col-12 col-lg-10 text-center">
+                    <h2 class="wealth-heading">
+                        <span style="color: #f0ecb3;">Frequently Asked </span>
+                        <span style="color: #ffd570;"> <br>Questions   </span>
+                    </h2>
+                </div>
+                
+
+              <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">
+                    How do withdrawals work?
+                </h3>
+                <div class="decorative-line"></div>
+                <p class="card-text">
+                    Withdrawals are processed within minutes to your preferred digital wallet. <br> We support all major cryptocurrencies and traditional payment methods.
+                </p>
+            </div>
+        </div>
+        
+        <br><br>
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">
+                    What makes your returns sustainable?
+                </h3>
+                <div class="decorative-line"></div>
+                <p class="card-text">
+                    Our AI-driven system analyzes real-time market data to identify strategic investment opportunities with strong growth potential. <br> Each decision is guided by a combination of automated precision and expert review to ensure your portfolio grows securely and consistently.
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title"> 
+                    Can I upgrade my plan?
+                </h3>
+                <div class="decorative-line"></div>
+                <p class="card-text">
+                    Yes, you can upgrade your plan at any time. Your current cycle will run its course and the new plan will take effect in the following investment cycle.
+                </p>
+            </div>
+        </div>
+        
+
+            
+            <div class="d-flex justify-content-center my-5">
+                <div class="custom-solution-box text-center p-4">
+                    <h3 class="mb-3" style="color: #ffd374;">Ready for a Custom Solution?</h3>
+                    <p class="mb-0" style="color: rgba(255,255,255,0.8);">
+                        For institutional investors or unique requirements above $10M, we create bespoke investment strategies tailored to your specific needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="pt-5 text-center">
+                <h1> <span style="color: #f0ecb3;">Secure. Transparent.</span> <span style="color: #ffd570;">Built to Last. </span></h1>
+                <p style="color: #ffd570; text-align: center; max-width: 600px; margin: 0 auto; padding: 20px;">
+                    Our operations are structured to meet global compliance standards and avoid traditional securities pitfalls. With legal insights from top firms, we ensure clarity and confidence in every transaction.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <div class="container">
+            <h1 class="section-header text-center mb-4">
+                <span class="normal-text">Not Just Trading.</span>
+                <span class="highlight-text"> A Financial Experience.</span>
+            </h1>
+            
+            <p class="description-text text-center mb-5">
+                Quorent Seven merges AI-driven trading with expert strategy to deliver consistent returns. Designed for investors and businesses that demand results without compromise.
+            </p>
+        
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-5">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="feature-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="card-title">Up to 175% ROI</h3>
+                        <p class="card-description">Earn exceptional returns in just 7 days</p>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="feature-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="card-title">Instant Withdrawals</h3>
+                        <p class="card-description">Process withdrawals within minutes</p>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="feature-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3 class="card-title">No Hidden Fees</h3>
+                        <p class="card-description">Complete transparency in all transactions</p>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="feature-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="card-title">40+ Years Experience</h3>
+                        <p class="card-description">Combined financial and industry expertise</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row align-items-start py-5">
+                <!-- Text Column -->
+                <div class="col-lg-6 pe-lg-5 mb-5 mb-lg-0">
+                    <h2 class="mb-4">
+                        <span style="color: #f0ecb3;">Redefining Wealth</span>
+                        <span style="color: #ffd570;">, Beyond the Ordinary</span>
+                    </h2>
+                    <p style="color:#ffd76a ; font-size: 18px;" class="mb-4">With over 40 years as licensed builders operating globally, we bridge the gap between crypto-backend liquidity and real-world business needs. We help Tier 2-3 builders around the world secure the cash flow they need without the bureaucracy of banks.</p>
+                    <p style="color:#ffd76a ; font-size: 18px;" class="mb-4">From high-net-worth individuals to construction leaders seeking liquidity, we provide customized financial pathways designed to outperform traditional investment approaches. Our strategies are born from deep market insights, advanced data modeling, and a relentless focus on protecting and multiplying your wealth.</p>
+                    <p style="color:gold ; font-size: 20px;" class="mb-0">This is not just investing, it's financial craftsmanship at its finest.</p>
+                </div>
+                
+                <!-- Cards Column -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <!-- Card 1 -->
+                        <div class="col-md-12">
+                            <div class="card h-100 border-0 shadow-sm ai-card p-4">
+                                <i class="fas fa-brain card-icon"></i>
+                                <h5 class="card-title">AI-Powered Intelligence</h5>
+                                <p class="card-text">
+                                    Our proprietary algorithms scan global markets at lightning speed, 
+                                    identifying profitable opportunities with unmatched precision.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="col-md-12">
+                            <div class="card h-100 border-0 shadow-sm ai-card p-4">
+                                <i class="fas fa-bullseye card-icon"></i>
+                                <h5 class="card-title">Expert-Led Strategies</h5>
+                                <p class="card-text">
+                                    We pair cutting-edge technology with expert-led strategies that ensure every trade is purposeful and calculated.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 3 -->
+                        <div class="col-md-12">
+                            <div class="card h-100 border-0 shadow-sm ai-card p-4">
+                                <i class="fas fa-user-friends card-icon"></i>
+                                <h5 class="card-title">Tailored Solutions</h5>
+                                <p class="card-text">
+                                    Customized financial pathways designed for businesses and individuals who demand exceptional returns.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    
+    <!-- Compliance Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="card p-3 h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="card-icon me-3">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="card-title mb-2">Regulatory Framework</h3>
+                                    <p class="card-content mb-0">Structured to meet global compliance standards and avoid traditional securities pitfalls.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="card p-3 h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="card-icon me-3">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="card-title mb-2">Legal Oversight</h3>
+                                    <p class="card-content mb-0">Continuous oversight from top legal firms ensuring clarity and confidence in every transaction.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="card p-3 h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="card-icon me-3">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="card-title mb-2">Secure Operations</h3>
+                                    <p class="card-content mb-0">Advanced security protocols protect your investments with bank-level encryption and monitoring.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="card p-3 h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="card-icon me-3">
+                                    <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <div>
+                                    <h3 class="card-title mb-2">Transparent Processes</h3>
+                                    <p class="card-content mb-0">Full transparency in operations, returns, and risk management strategies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-content mb-5 mb-md-0">
+                    <h2 class="main-heading">Trust Through <span style="color: #ffd570;">Transparency</span></h2>
+                    <p class="content-text">
+                        We operate under strict internal frameworks designed to avoid traditional securities triggers while ensuring full transparency. Our legal teams and partners oversee ongoing compliance so you can invest with absolute confidence.
+                    </p>
+                    <p class="content-text">
+                        Every client receives complete visibility into their portfolio performance, transaction history, and risk assessments. We believe that transparency builds trust, and trust builds lasting partnerships.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Card 1 -->
+                    <div class="card mb-3">
+                        <div class="d-flex">
+                            <div class="card-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-title">Compliance Audits</h4>
+                                <p class="card-content">Regular third-party audits ensure we maintain the highest standards of regulatory compliance and operational integrity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="card mb-3">
+                        <div class="d-flex">
+                            <div class="card-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-title">Data Protection</h4>
+                                <p class="card-content">Advanced encryption and security protocols protect your personal information and investment data at all times.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <div class="d-flex">
+                            <div class="card-icon">
+                                <i class="fas fa-scale-balanced"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-title">Legal Framework</h4>
+                                <p class="card-content">Structured legal framework ensures all operations comply with international financial regulations and best practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-box">
+                <h2>Your Wealth Journey Starts Here</h2>
+                <p>Don't settle for ordinary returns. Quorent Seven is where AI precision meets proven expertise, delivering results that set a new standard for modern investing.</p>
+                <button class="btn-create-account">Create an Account</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+       <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 footer-about">
+                     <a href="#" class="footer-logo">
+            <div class="logo-box">Q</div>
+            <span style="color: #ffd374;">Quorent VII</span>
+        </a>
+                    <p class="mb-4">Crafted for Visionaries, Built for Results. Where AI precision meets proven expertise to deliver exceptional investment returns.</p>
+                    <ul class="contact-info">
+                        <li class="mb-2"><i class="fas fa-envelope"></i> info@quorentseven.com</li>
+                        <li class="mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 300 DELAWARE AVE STE 210-A, WILMINGTON, New Castle, DE, 19801</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h3 class="mb-3">Quick Links</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#">About Us</a></li>
+                        <li class="mb-2"><a href="#">Our Approach</a></li>
+                        <li class="mb-2"><a href="#">Investment Plans</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h3 class="mb-3">Legal</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+      <div class="row footer-bottom justify-content-between">
+    <div class="col-auto">
+        <p class="mb-0">© 2024 Quorent VII. All rights reserved</p>
+    </div>
+    <div class="col-auto">
+        <p class="mb-0">Quorent VII - Crafted for Visionaries, Built for Results.</p>
+    </div>
+</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Toggle active class on answer
+                answer.classList.toggle('active');
+                
+                // Rotate icon
+                if (answer.classList.contains('active')) {
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
